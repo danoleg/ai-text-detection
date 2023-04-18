@@ -1,0 +1,30 @@
+{% extends 'material/base.html' %}
+
+{% block content %}
+<div class="container">
+    <h1>Configuration Page</h1>
+    <form method="POST" action="{{ url_for('config') }}">
+        <div class="form-group">
+            <label for="hostname">Hostname</label>
+            <input type="text" value="{{data.hostname}}" required="required" class="form-control" id="hostname" name="hostname" placeholder="Enter hostname">
+        </div>
+        <div class="form-group">
+            <label for="port">Port</label>
+            <input type="text" value="{{data.port}}" required="required" class="form-control" id="port" name="port" placeholder="Enter port number">
+        </div>
+        <div class="form-group">
+            <label for="user">User</label>
+            <input type="text" value="{{data.user}}" required="required" class="form-control" id="user" name="user" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+            <label for="namespace">Namespace</label>
+            <input type="text" value="{{data.namespace}}" required="required" class="form-control" id="namespace" name="namespace" placeholder="Enter namespace">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" value="{{data.password}}" required="required" class="form-control" id="password" name="password" placeholder="Enter password">
+        </div>
+        <button type="submit" class="btn btn-primary">Save and init</button>
+    </form>
+</div>
+{% endblock %}
