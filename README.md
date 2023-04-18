@@ -16,6 +16,8 @@ frequency_penalty=0.4
 presence_penalty=0.1
 ```
 
+To try the application you can use [online demo](http://185.69.153.16:8010/text-processing) or run it locally with your own Cloud SQL account.
+
 ### How to run app:
 1) Build app
 ```
