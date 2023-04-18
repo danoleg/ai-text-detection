@@ -26,25 +26,30 @@ And open http://127.0.0.1:8010/
 
 1) Open your Cloud Service Portal and create the new Deployment
 2) Go to the app and set your deployment credentials
+
 ![image](https://user-images.githubusercontent.com/31770269/232645756-2b165057-071e-4602-aef9-840576b0ad36.png)
 
 
 3) In the Cloud Service Portal open "Add and Manage files" page and add GPT-human-text.csv from the /data folder
+
 ![image](https://user-images.githubusercontent.com/31770269/232645647-09e2fa45-b861-4b69-ad37-c9a1c39b4f64.png)
 
 
 4) Open the "Import files" page and import current file to the Texts table
+
 ![image](https://user-images.githubusercontent.com/31770269/232645561-f1db26e7-8a54-4e0a-b374-0b680b33ae3b.png)
 ![image](https://user-images.githubusercontent.com/31770269/232645507-b6211878-5b3a-40c0-bef2-75b6e19deb78.png)
 ![image](https://user-images.githubusercontent.com/31770269/232645456-7924e5e6-0470-4296-8837-22d8db1fb67c.png)
 
 
 5) Then go to "IntegratedML Tools" and create and train a new model "TextModel" with the name of the training model "TextTrainedModel"
+
 ![image](https://user-images.githubusercontent.com/31770269/232645805-227dc8e0-9a21-4586-95dd-d7525f6170d0.png)
 ![image](https://user-images.githubusercontent.com/31770269/232645836-258d7a77-acd0-49e8-87b2-0ab5f477ab27.png)
 
 
 5) Go back to the application, enter your text and look at the result. (The maximum text length is 2500 characters)
+
 ![image](https://user-images.githubusercontent.com/31770269/232645873-be4628f9-1af2-40cf-816c-2689ef46ac63.png)
 
 
